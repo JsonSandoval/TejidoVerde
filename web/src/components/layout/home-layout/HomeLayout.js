@@ -42,11 +42,12 @@ export default function SignIn() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
-          <LockOutlinedIcon />
-        </Avatar>
+       
+          <img src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.6435-9/180965073_156155413177260_5304070491384874923_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NFCGSnoHpigAX-up7N7&_nc_ht=scontent.fbog3-1.fna&oh=00_AT9GnmUrr2CCD3ks820KincfrWOtHLJKlI5c5XW2GLMb1g&oe=62670695"></img>
+          
+        
         <Typography component="h1" variant="h5">
-          Sign in
+          Ingresar a Tejido Verde
         </Typography>
         <form action="/login" method="POST" className={classes.form} noValidate>
           <TextField
