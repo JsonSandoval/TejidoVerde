@@ -14,6 +14,7 @@ function renderLogin(req, res) {
 router.get('/dashboard', auth,  renderDashboard);
 router.get('/receptors', auth,  renderDashboard);
 router.get('/reports', auth,  renderDashboard); 
+router.get('/recycler', auth,  renderDashboard); 
 router.post('/logout', renderLogin);
 
 module.exports = router;

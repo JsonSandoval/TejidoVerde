@@ -53,13 +53,12 @@ ListItemLink.propTypes = {
 
 export const mainListItems = (
   <div>
-
+    {/*
     <ListItemLink icon={<HomeIcon />} to='/dashboard' primary="Mi Empresa" />
     <ListItemLink icon={<PeopleIcon />} to='/receptors' primary="Clientes" />
     <ListItemLink icon={<BarChartIcon />} to='/reports' primary="Reportes" />
-    <ListItemLink icon={<SettingsIcon />} to='/settings' primary="Configuración" />
-
-
+    <ListItemLink icon={<SettingsIcon />} to='/settings' primary="Configuración" />*/}
+    <ListItemLink icon={<PeopleIcon />} to='/recyclers' primary="Recicladores" />
   </div>
 );
 

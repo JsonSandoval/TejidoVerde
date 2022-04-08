@@ -9,7 +9,7 @@ const ReportController = {
         if (filters[key].length > 0) {
           query[key] = new RegExp(filters[key], 'i')
         }
-      }
+      } 
       console.log('getReport:: query :: ', query)
       const report = await Report.find(query);
       return report;

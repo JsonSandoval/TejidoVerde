@@ -9,6 +9,9 @@ const express = require('express');
 const UserAPI = require('./api-routes/UserAPI')
 const ReceptorAPI = require('./api-routes/ReceptorAPI')
 const ReportAPI = require('./api-routes/ReportAPI')
+//Tejido Verde
+const RecyclerAPI = require('./api-routes/RecyclerAPI')
+
 
 
 //Imports de Vistas
@@ -25,6 +28,8 @@ const router = express.Router();
 router.use(UserAPI);
 router.use(ReceptorAPI);
 router.use(ReportAPI);
+//Tejido Verde
+router.use(RecyclerAPI);
 
 //Views
 router.use(LoginRouter);
