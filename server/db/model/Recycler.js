@@ -7,8 +7,7 @@ const RecyclerSchema = mongoose.Schema({//creación de esquema
     TypeID: {
         type: String,  //guarda como String y espera un String para consultar
         require: true, //requerido para realizar un insert 
-        trim: true,      //hace trim() antes de guardar
-        unique: true
+        trim: true     //hace trim() antes de guardar
     },
     ID: {
         type: String,  //guarda como String y espera un String para consultar
@@ -55,8 +54,7 @@ const RecyclerSchema = mongoose.Schema({//creación de esquema
     numberPlate: {
         type: String,
         //require: true,
-        trim: true,
-        unique: true,
+        trim: true
     },
     typeVehicle: {
         type: String,
